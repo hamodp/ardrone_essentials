@@ -1,0 +1,14 @@
+<package>
+  <description brief="cam_test">
+
+     cam_test
+
+  </description>
+  <author>Patrick</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/cam_test</url>
+
+</package>
+
+

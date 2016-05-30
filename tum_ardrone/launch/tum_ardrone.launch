@@ -1,0 +1,17 @@
+<launch>
+  <node name="drone_stateestimation" pkg="tum_ardrone" type="drone_stateestimation">
+  </node>
+  
+  <!-- Configure Dynamically Reconfigurable Parameters -->
+  <!--<node name="setPTAM" pkg="dynamic_reconfigure" type="dynparam" args="set /drone_stateestimation UsePTAM true">
+  </node>
+  <node name="setNavdata" pkg="dynamic_reconfigure" type="dynparam" args="set /drone_stateestimation UseNavdata true">
+  </node>
+  <node name="setControl" pkg="dynamic_reconfigure" type="dynparam" args="set /drone_stateestimation UseControlGains false">
+  </node>-->
+  
+  <node name="drone_autopilot" pkg="tum_ardrone" type="drone_autopilot">
+  </node>
+  <node name="drone_gui" pkg="tum_ardrone" type="drone_gui">
+  </node>
+</launch>

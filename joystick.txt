@@ -1,0 +1,68 @@
+Configuration of logitech joy pad:
+
+
+to change controller press mode to light up then change switch on top of controller
+
+If mode is lit up the left stick and control pad axes switch and both are now digital control
+
+x-mode
+
+button0 = a
+button1 = b
+button2 = x
+button3 = y
+button4 = lb
+button5 = rb
+button6 = back
+button7 = start
+button8 = logitech
+button9 = left stick
+button10 = right stick
+
+axes are analog except axes 6 and 7
+axis0 = left stick x-axis left=1 right=-1
+axis1 = left stick y-axis up=1 down=-1
+axis2 = lt unpressed=1 pressed=-1
+axis3 = right stick x-axis left=1 right=-1
+axis4 = right stick y-axis up=1 down=-1
+axis5 = rt unpressed=1 pressed=-1
+axis6 = controlpad left=-1 right=1
+axis7 = controlpad up=1 down=-1
+
+d-mode
+
+button0 = a
+button1 = b
+button2 = x
+button3 = y
+button4 = lb
+button5 = rb
+button6 = lt
+button7 = rt
+button8 = back
+button9 = start
+button10 = left stick
+button11 = right stick
+
+axes are analog except axes 6 and 7
+axis0 = left stick x-axis left=-1 right=1
+axis1 = left stick y-axis up=1 down=-1
+axis3 = right stick x-axis left=-1 right=1
+axis4 = right stick y-axis up=1 down=-1
+axis6 = controlpad left=-1 right=1
+axis7 = controlpad up=1 down=-1
+
+
+Current configuration for ar drone:
+using x-input mode light off
+
+a=takeoff
+x=land
+lb=emergency
+
+left stick y-axis = drone roll
+left stick x-axis = drone pitch
+control pad x-axis=drone yaw
+control pad y-axis = elevation
+
+
